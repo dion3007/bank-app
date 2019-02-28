@@ -1,0 +1,36 @@
+.container {
+  padding: 1rem; }
+
+.btnSbmt {
+  background-color: rgba(146, 235, 133, 0.803) !important;
+  color: #525a31 !important;
+  letter-spacing: 1rem;
+  font-weight: 700 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; }
+
+.textTengah {
+  text-align: center; }
+
+.textKiri {
+  text-align: left; }
+
+.textKanan {
+  text-align: right; }
+
+.m-bgs {
+  margin: 1rem !important; }
+
+.m-form {
+  margin: 2rem !important; }
+
+.w-bgs {
+  width: 40%; }
+
+.ml-104 {
+  margin-left: 10.4rem !important; }
+
+.ml-24 {
+  margin-left: 24% !important; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

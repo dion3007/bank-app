@@ -1,0 +1,55 @@
+// Variable
+
+$tengah: center;
+$kanan: right;
+$kiri: left;
+$ijo: rgba(146, 235, 133, 0.803);
+
+// Primary
+
+.container {
+    padding: 1rem;
+}
+
+.btnSbmt {
+    background-color: $ijo !important;
+    color: rgb(82, 90, 49) !important;
+    letter-spacing: 1rem;
+    font-weight: 700 !important ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+// Action
+.textTengah {
+    text-align: $tengah;
+}
+
+.textKiri {
+    text-align: $kiri;
+}
+
+.textKanan {
+    text-align: $kanan;
+}
+
+// utilities
+
+.m-bgs {
+    margin: 1rem !important;
+}
+
+.m-form {
+    margin: 2rem !important;
+}
+
+.w-bgs {
+    width: 40%
+}
+
+.ml-104 {
+    margin-left: 10.4rem !important;
+}
+
+.ml-24 {
+    margin-left: 24% !important;
+}
