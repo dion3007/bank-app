@@ -63,10 +63,19 @@ class Index extends Component {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                {this.state.res.map(row => (
+                                {this.state.res === null && 
+                                    <TableRow>
+                                        <TableCell component="th" scope="row">
+                                            No Data
+                                        </TableCell>
+                                    </TableRow>
+                                }
+                                {this.state.res != null && this.state.res.map(row => (
                                     <TableRow key={row.id}>
                                         <TableCell component="th" scope="row">
-                                            {row.accountNumber}
+                                            <Link href={{ pathname: '/DetailBankData', query: { id: row.id } }}>
+                                                <Button>{row.accountNumber}</Button>
+                                            </Link>
                                         </TableCell>
                                         <TableCell align="right">{row.swiftCode}</TableCell>
                                         <TableCell align="right">{row.address}</TableCell>

@@ -59328,12 +59328,26 @@ function (_Component) {
           lineNumber: 65
         },
         __self: this
-      }, this.state.res.map(function (row) {
+      }, this.state.res === null && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableRow"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
+        component: "th",
+        scope: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }, "No Data")), this.state.res != null && this.state.res.map(function (row) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableRow"], {
           key: row.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 67
+            lineNumber: 74
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
@@ -59341,42 +59355,60 @@ function (_Component) {
           scope: "row",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 68
+            lineNumber: 75
           },
           __self: this
-        }, row.accountNumber), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
+        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+          href: {
+            pathname: '/DetailBankData',
+            query: {
+              id: row.id
+            }
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 76
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["Button"], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77
+          },
+          __self: this
+        }, row.accountNumber))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
           align: "right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 80
           },
           __self: this
         }, row.swiftCode), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
           align: "right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72
+            lineNumber: 81
           },
           __self: this
         }, row.address), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
           align: "right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73
+            lineNumber: 82
           },
           __self: this
         }, row.currency), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
           align: "right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 74
+            lineNumber: 83
           },
           __self: this
         }, row.type), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["TableCell"], {
           align: "right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75
+            lineNumber: 84
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -59385,7 +59417,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75
+            lineNumber: 84
           },
           __self: this
         }, "Delete")));
@@ -59400,7 +59432,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CDion-Project%5Cprojek%5C_A%5Cbank-app%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************/
@@ -59423,5 +59455,5 @@ module.exports = dll_a5c8591f6086a76811b1;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

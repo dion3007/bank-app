@@ -143,7 +143,7 @@ class Index extends Component {
                                         <MenuItem value='Company'>Company</MenuItem>
                                     </Select>
                                 </FormControl>
-                                {type == 'Individual' &&
+                                {type === 'Individual' &&
                                     <span>
                                         <TextField
                                             className="m-bgs w-bgs"
@@ -163,7 +163,7 @@ class Index extends Component {
                                         />
                                     </span>
                                 }
-                                {type == 'Company' &&
+                                {type === 'Company' &&
                                     <span>
                                         <TextField
                                             className="m-bgs w-bgs"
